@@ -78,7 +78,8 @@ canvas = Canvas( tk, width = 500, height = 400, bd = 0, highlightthickness = 0 )
 canvas.pack()
 '''
 btn = Button( tk, text = "play again", command = game_start, state = 'hidden' )
-btn.pack'''
+btn.pack
+'''
 txt_false = canvas.create_text(
     250, 100,
     text = 'False!!',
